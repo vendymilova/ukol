@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Penzion u vody</title>
+
+	<!-- Google Fonts: Raleway 400, Open Sans 400(i)/700(i) -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway&display=swap" rel="stylesheet">
+
+	<!-- Naše vlastní CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="header__contact">
+				<a class="header__contact-email" href="mailto:penzion@uvody.cz">penzion@uvody.cz</a>
+				<span class="header__contact-phone">Tel. +420 123 456 789</span>
+			</div>
+
+			<div class="header__inner">
+				<div class="header__left">
+					<div class="header__logo">Penzion u vody</div>
+
+					<div class="header__address">
+						<img class="header__stars" src="/images/3stars.svg" alt="3 hvězdičky">
+						Ulice 42, Městečko
+					</div>
+				</div>
+				<div class="hamburger">
+					<label for="hamburger__toggle" class="hamburger_menu">&#9776;</label>
+				</div>
+			</div>
+
+			<input type="checkbox" id="hamburger__toggle" class="hamburger__toggle">
+			<div class="menu">
+				<nav class="menu_nav">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="/index" class="menu__link">Úvod</a></li>
+					<li class="menu__item"><a href="/pokoje" class="menu__link">Pokoje</a></li>
+					<li class="menu__item"><a href="/vybaveni" class="menu__link">Vybavení</a></li>
+					<li class="menu__item"><a href="/galerie" class="menu__link">Galerie</a></li>
+					<li class="menu__item"><a href="/kontakt" class="menu__link">Kontakt</a></li>
+				</ul>
+				</nav>
+			</div>
+
+			<div class="header__image"></div>
+		</header>
